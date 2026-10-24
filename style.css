@@ -1,0 +1,1563 @@
+* {
+    font-family: sans-serif;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+
+
+.navtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+    background-color: #002678;
+    padding: 22px 20px;
+
+
+    .contactus {
+        width: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0.6px;
+            color: white;
+            gap: 5px;
+
+            i {
+                font-size: 17px;
+                color: #21cdad;
+                margin-right: 5px;
+
+            }
+        }
+
+    }
+
+    .insurence {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px 10px 0px 0px;
+
+
+
+        }
+
+    }
+}
+
+nav {
+
+    width: 100%;
+    padding: 15px 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+
+
+
+        li {
+
+            list-style: none;
+            color: #002678;
+            font-weight: 600;
+            font-size: 17px;
+
+            li.hover {
+                background-color: #21cdad;
+
+            }
+
+
+
+        }
+    }
+
+    .button {
+
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+        color: #002678;
+
+        h1 {
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        button {
+            padding: 16px 25px;
+            border-radius: 5px;
+            border: none;
+            background-color: #21cdad;
+            color: white;
+            font-weight: 800;
+            font-size: 15px;
+
+        }
+    }
+}
+
+
+#section111 {
+
+    swiper-container {
+        width: 100%;
+        height: 80vh;
+
+
+        swiper-slide {
+            position: relative;
+            text-align: center;
+            font-size: 18px;
+            background: #444;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .cont {
+
+            background-image: linear-gradient(182deg, rgba(12, 5, 115, 1) 0%, rgba(0, 212, 255, 0.08) 100%), url("./images/2.jpg");
+
+            background-position: center;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: flex;
+            align-items: center;
+
+
+
+
+
+            .content {
+                margin-left: 10%;
+
+                /* position: absolute; */
+                /* height: 100; */
+                /* background-color: #21cdad; */
+                width: 700px;
+                text-align: start;
+
+                color: white;
+
+                h1 {
+                    font-size: 80px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 10px;
+
+                }
+
+                button {
+
+                    padding: 25px 50px;
+                    font-size: 15px;
+                    font-family: 700;
+                    border-radius: 10px;
+                    border: 2px solid white;
+
+
+                }
+
+
+            }
+
+
+        }
+
+        .cont2 {
+            background-image: linear-gradient(182deg, rgba(74, 67, 168, 1) 0%, rgba(0, 212, 255, 0.08) 100%), url(./images/slider.jpg);
+            background-position: center;
+            background-size: cover;
+
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: flex;
+            align-items: center;
+
+            .content {
+                margin-left: 10%;
+
+                /* position: absolute; */
+                /* height: 100; */
+                /* background-color: #21cdad; */
+                width: 700px;
+                text-align: start;
+
+                color: white;
+
+                h1 {
+                    font-size: 80px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 10px;
+
+                }
+
+                button {
+
+                    padding: 25px 50px;
+                    font-size: 15px;
+                    font-family: 700;
+                    border-radius: 10px;
+                    border: 2px solid white;
+
+
+                }
+
+
+            }
+
+
+        }
+
+
+
+    }
+}
+
+.slider {
+
+    width: 100%;
+
+    height: 40vh;
+    background-color: #21cdad;
+
+    .slider-track {
+        width: 80%;
+        height: 100%;
+        margin: 0px 10%;
+    }
+
+    .mySwiper {
+        width: 100%;
+        height: 60%;
+
+
+
+    }
+
+    swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+}
+
+
+
+
+.cards {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+
+    border-bottom: 1px solid gray;
+
+
+
+
+    .box {
+
+
+        position: absolute;
+        top: 950px;
+        left: 8%;
+        z-index: 99;
+
+        width: 400px;
+        height: 240px;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+
+
+        h3 {
+            color: #002678;
+            font-size: 25px;
+            font-weight: 900;
+
+        }
+
+        p {
+            font-size: 18px;
+            color: gray;
+            font-weight: 500;
+            padding: 15px 0px;
+            line-height: 1.5;
+
+
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #002678;
+            border-radius: 5px;
+            border: 1px solid gray;
+            background: white;
+
+
+            transition: 0.3s linear;
+        }
+
+        button:hover {
+            color: white;
+            background: #21cdad;
+
+        }
+
+
+    }
+
+
+    .box2 {
+        position: absolute;
+        top: 950px;
+        left: 37%;
+        z-index: 99;
+
+
+    }
+
+    .box3 {
+        position: absolute;
+        top: 950px;
+        left: 66%;
+        z-index: 99;
+
+    }
+
+    .box:hover {
+        transform: translate(0px, -10px);
+    }
+
+    .para {
+        p {
+            font-size: 16px;
+            color: gray;
+            font-weight: 800;
+            letter-spacing: 0.4;
+            margin-top: 25%;
+            max-width: 600px;
+            text-align: center;
+            line-height: 1.6;
+
+        }
+
+    }
+
+
+
+}
+
+.rotation {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+
+
+
+
+    .hexagon {
+        position: relative;
+
+
+        width: 600px;
+
+
+        .move {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+            background-color: #21cdad2b;
+            animation: rounded 10s infinite;
+
+        }
+
+
+
+
+        img {
+            position: relative;
+
+            width: 600px;
+            height: 600px;
+
+
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+            overflow: hidden;
+
+
+
+        }
+
+    }
+
+    .content {
+
+
+        width: 550px;
+
+
+        h1 {
+            font-size: 42px;
+            font-weight: 750;
+            color: #00226c;
+            margin: 0px 0px 40px;
+            font-family: sans-serif;
+            line-height: 1.3;
+        }
+
+        p {
+            font-size: 16px;
+            color: gray;
+            margin: 0px 0px 20px;
+            font-family: sans-serif;
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+
+        }
+
+        .health {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 5%;
+            /* height: 120px; */
+            border-bottom: 1px solid gray;
+            padding: 10px 0px 40px 0px;
+
+
+
+            .wellness {
+
+
+
+
+                h3 {
+                    color: #00226c;
+                    font-size: 16px;
+                    font-family: sans-serif;
+                    padding: 10px 0;
+
+                    i {
+                        margin-right: 10px;
+                    }
+
+                }
+            }
+
+            .note {
+                padding: 30px 0px;
+
+
+
+            }
+
+
+        }
+
+    }
+
+}
+
+@keyframes rounded {
+    to {
+        transform: rotate(360deg);
+    }
+
+    from {
+        transform: rotate(0deg);
+    }
+}
+
+
+.community {
+
+    width: 100%;
+    margin: 60px 0px;
+
+    .find {
+
+
+        text-align: center;
+        width: 40%;
+        margin: 5% 30%;
+
+
+        h3 {
+            color: #21cdad;
+            font-weight: 800;
+            font-family: sans-serif;
+            font-size: 12px;
+
+        }
+
+        h2 {
+            color: #00226c;
+            font-weight: 800;
+            font-family: sans-serif;
+            font-size: 38px;
+
+        }
+
+    }
+
+    .testing-card {
+
+        margin: 0px 0px 50px;
+        color: rgba(255, 255, 255, 0.144);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7%;
+        width: 100%;
+        position: relative;
+
+        .shape {
+            width: 40px;
+            height: 30px;
+            position: absolute;
+            top: 14px;
+            border-radius: 5px;
+            display: none;
+
+
+
+
+            clip-path: polygon(25% 0%,
+                    75% 0%,
+                    100% 50%,
+                    75% 100%,
+                    25% 100%,
+                    0% 50%);
+        }
+
+        .green {
+            background: #39d6b0;
+            left: 10%
+        }
+
+        .blue {
+            background: #002678;
+            left: 13%
+        }
+
+
+
+
+        .test {
+
+
+
+            transition: 0.3s ease-in;
+            background-color: #21cdad2e;
+            height: 480px;
+            width: 370px;
+            position: relative;
+            color: white;
+            border-radius: 10px;
+            padding: 40px 50px;
+
+            &:hover {
+                .shape {
+                    display: block;
+                    top: -14px;
+                }
+
+                .general {
+                    h2 {
+                        color: #21cdad;
+                    }
+                }
+            }
+
+
+            .general {
+                height: 20%;
+
+                h2 {
+                    color: #00226c;
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    font-weight: 800;
+
+                }
+
+            }
+
+            p {
+                color: gray;
+                font-size: 14px;
+                line-height: 1.5;
+
+
+                font-family: sans-serif;
+
+            }
+
+            .list {
+                margin: 20px 0px 40px;
+                padding: 0px 0px 30px;
+
+                border-bottom: 1px solid gray;
+
+                ul {
+
+                    font-weight: 600;
+
+                    li {
+                        font-size: 18px;
+                        line-height: 1.5;
+                        color: #444444e5;
+                    }
+
+                }
+            }
+
+            button {
+                padding: 16px 30px;
+                background-color: #00226c;
+                color: white;
+                border-radius: 5px;
+                font-weight: 700;
+                border: none;
+                font-size: 15px;
+            }
+
+            button:hover {
+                background-color: #21cdad;
+                transition: 1s;
+            }
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+}
+
+.video-cont {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+
+
+
+
+
+    .visit {
+
+
+        padding: 0px 12px;
+        width: 600px;
+
+        h3 {
+            font-size: 28px;
+            color: #00226c;
+            font-weight: 700;
+            font-family: sans-serif;
+            padding: 0px 0px 40px;
+
+        }
+
+        p {
+
+            font-size: 17px;
+            color: rgba(128, 128, 128, 0.899);
+            font-weight: 500;
+            font-family: sans-serif;
+            padding: 0px 0px 30px;
+            line-height: 1.5;
+
+
+        }
+
+        .button {
+
+
+
+            button {
+
+                padding: 20px 40px;
+                color: white;
+                background-color: #002678;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                font-weight: 600;
+
+            }
+
+            span {
+
+                i {
+                    color: white;
+                    padding: 15px 15px;
+                    background: #21cdad;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    border: 8px solid rgba(255, 255, 255, 0.366);
+
+
+
+                }
+
+                margin: 0px 40px;
+                font-size: 18px;
+                color: #21cdad;
+                font-weight: 600;
+
+            }
+
+        }
+    }
+
+    img {
+        margin: 0px 0px 0px 120px;
+        border-radius: 20px;
+
+
+
+
+
+
+    }
+
+
+
+
+}
+
+.banner-layout {
+
+    width: 100%;
+    background: linear-gradient(#00226cd5, #00226cda), url(https://7oroof.com/demos/chemlabs/assets/images/backgrounds/1.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+
+
+
+    .row {
+
+
+        margin: 0px 0px 0px 100px;
+        padding: 100px 0px 20px 0px;
+        width: 600px;
+
+        h3 {
+            color: #21cdad;
+            font-weight: 800;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        h2 {
+            color: white;
+
+            font-weight: 800;
+            font-family: sans-serif;
+            font-size: 35px;
+        }
+    }
+
+    .experience {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 100px;
+        position: relative;
+
+
+        img {
+            border-radius: 20px;
+
+
+
+
+
+        }
+
+        .bluediv {
+            background-color: #00226c;
+            border-radius: 0 0px 0px 30px;
+            width: 75px;
+            height: 300px;
+            position: absolute;
+            left: 41.2%;
+            top: 0px;
+            border: 1px solid white;
+
+        }
+
+        .greendiv {
+            background-color: #21cdad;
+            border-radius: 0 30px 0px 30px;
+            width: 75px;
+            height: 300px;
+            position: absolute;
+            left: 45%;
+            top: -25px;
+            z-index: 100;
+
+        }
+
+
+
+        .appointment {
+            width: 600px;
+            color: white;
+
+            p {
+                font-size: 15px;
+                font-weight: 700;
+                font-family: sans-serif;
+
+                margin: 0px 0px 40px;
+
+
+            }
+
+            h4 {
+                font-size: 18px;
+                font-weight: 700;
+                font-family: sans-serif;
+                margin: 0px 0px 20px;
+
+            }
+
+        }
+    }
+
+    .rating {
+
+        margin: 90px 0px 0px;
+        padding: 60px 0px 40px;
+        border-top: 1px solid steelblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .colm-sm {
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            span {
+                font-size: 50px;
+                font-family: sans-serif;
+                font-weight: 700;
+
+            }
+
+            p {
+                width: 150px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: sans-serif;
+
+            }
+        }
+
+
+
+
+    }
+}
+
+.research {
+
+    padding: 120px 0px 50px;
+
+
+    .technoloigy {
+        text-align: center;
+        margin: 0px 0px 50px;
+        padding: 0px 12px;
+
+        p {
+            font-weight: 700;
+            color: #21cdad;
+            margin: 12px;
+
+
+        }
+
+        h2 {
+            color: #00226c;
+            font-weight: 700;
+            font-size: 30px;
+            font-family: sans-serif;
+            margin: 20px;
+
+
+        }
+
+
+    }
+
+    .vaccine {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+
+        .vaccine-card {
+            height: 550px;
+            width: 400px;
+            background: #21cdad62;
+            border-radius: 20px;
+
+            .image-box {
+                img {
+                    border-radius: 10px;
+
+
+
+                }
+            }
+
+            &:hover {
+                background: #21cdadbc;
+
+
+            }
+
+
+
+
+            .image-text {
+
+                padding: 50px;
+
+                small {
+                    padding: 4px 13px;
+                    background-color: #21cdad;
+                    color: white;
+                    font-weight: 700;
+                    border-radius: 10px;
+                    font-family: sans-serif;
+                    margin-bottom: 20px;
+
+
+
+                }
+
+                h4 {
+                    color: #00226c;
+                    font-weight: 800;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: gray;
+                    line-height: 1.3;
+                    font-size: 18px;
+
+
+
+                }
+            }
+
+
+
+
+        }
+    }
+
+
+
+}
+
+.clients {
+    padding: 50px 0px;
+
+    .clients-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .div-para {
+            padding: 0px 12px;
+
+            p {
+                font-size: 13px;
+                font-weight: 800;
+                color: gray;
+                font-family: sans-serif;
+                width: 300px;
+
+
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+}
+
+.work-process {
+    position: relative;
+    height: 100vh;
+
+
+    background-image: linear-gradient(#21cdade6, #21cdade9), url(https://7oroof.com/demos/chemlabs/assets/images/backgrounds/1.jpg);
+
+    object-fit: cover;
+    background-position: center;
+
+
+    background-attachment: fixed;
+
+
+
+
+
+
+    .work-process-heading {
+
+
+
+
+        p {
+            font-size: 16px;
+
+            margin-bottom: 12px;
+            color: white;
+            font-weight: 600;
+            font-family: sans-serif;
+
+
+        }
+
+    }
+
+    .work-process-box {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+
+        .box-heading {
+            margin: 0px 0px 20px;
+            padding: 0px 12px;
+            color: #ffffff;
+
+            h2 {
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 1.5;
+                letter-spacing: 0.8px;
+
+            }
+        }
+
+        .box-text {
+            padding: 0px 12px;
+            margin: 0px 0px 0px 100px;
+            color: #ffffff;
+            width: 70%;
+
+            p {
+                padding: 20px 0px;
+            }
+
+            .tick {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                padding: 10px 0px;
+
+                h4 {
+                    padding: 10px 0px;
+
+                }
+            }
+
+
+
+        }
+
+
+
+
+    }
+
+    .newcardslide {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        position: absolute;
+        top: 60%;
+        z-index: 100;
+
+
+
+        .newcard {
+            margin-left: 50px;
+            transition: .4s ease-in-out;
+
+            height: 390px;
+            width: 310px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 50px;
+
+            .no {
+                color: #00226c;
+                border-radius: 50%;
+                height: 60px;
+
+                span {
+                    padding: 22px 24px;
+                    border-radius: 50%;
+                    background: rgba(128, 128, 128, 0.196);
+                    font-weight: 750;
+                    font-size: 20px;
+
+                }
+
+            }
+
+            h2 {
+                color: #00226c;
+                font-size: 22px;
+                margin-bottom: 15px;
+
+
+            }
+
+            p {
+                color: gray;
+                line-height: 1.4;
+                margin-bottom: 15px;
+
+            }
+
+            h3 {
+                color: #00226c;
+
+            }
+
+            &:hover {
+
+                transform: translate(0px, -15px);
+
+
+                h3 {
+                    color: #21cdad;
+
+                }
+
+                .no {
+                    span {
+
+                        border: 3px solid #21cdad;
+
+                        background-color: white;
+
+                    }
+                }
+
+
+            }
+
+
+
+        }
+
+    }
+
+
+
+
+
+
+}
+
+
+.trusted-layout {
+    position: relative;
+
+
+    svg {
+        position: absolute;
+        bottom: 10px;
+        top: 35%;
+
+
+
+
+
+
+    }
+
+
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(#00226cda),
+    url(https://7oroof.com/demos/chemlabs/assets/images/backgrounds/1.jpg);
+    gap: 60px;
+
+    .trusted {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+
+
+
+        .trusted-para {
+
+            h2 {
+                color: white;
+
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: white;
+
+
+            }
+        }
+
+
+
+    }
+
+    .buttn {
+
+
+        button {
+            padding: 18px 50px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 17px;
+
+            transition: .4s ease-in-out;
+            background: #21cdad;
+
+            &:hover {
+                background: white;
+                color: #21cdad;
+            }
+
+            .transparent {
+                background: transparent;
+
+            }
+
+
+        }
+
+
+
+    }
+}
+
+
+.helping{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 80px ;
+    margin: 50px 0px ;
+   
+   
+
+
+  
+    .row1{
+
+        width: 55%;
+
+         h3{
+            color:#21cdad ;
+            font-size: 15px ;
+            font-family: sans-serif;
+            margin-bottom: 20px;
+
+        }
+        h1{
+            color: #002678;
+            font-size: 35px;
+            font-family: sans-serif;
+            font-weight: 750;
+            line-height: 1.3;
+
+        }
+       
+
+       
+       
+    }
+
+    .row2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0px ;
+
+
+        .child1{
+            width: 30%;
+
+            p{
+                color: grey;
+                line-height: 1.2;
+                margin-bottom: 25px;
+            }
+            button{
+                padding: 25px 45px ;
+                border-radius: 5px ;
+                background:#002678;
+                color: white;
+                border: none;
+                font-size: 15px;
+                font-weight: bold;
+               i{
+                margin-right: 10px;
+               }
+
+
+
+            }
+            .child2{
+               width: 50%;
+              
+
+                .upperbox{
+                    height: 300px ;
+                    width: 200px;
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+
+
+                }
+
+            }
+        }
+
+    }
+}
+
+
+
+/* .appointment {
+    height: 100vh;
+    margin: 50px 0px;
+    background-image:linear-gradient(#00226cda),
+    url(https://7oroof.com/demos/chemlabs/assets/images/backgrounds/1.jpg);
+    color: white;
+
+    .box1{
+        width: 45%;
+        padding: 40px 30px;
+        h2{
+            color: #21cdad;
+            font-size: 15px;
+           
+
+
+        }
+        h1{
+            font-size: 35px;
+             font-weight: 900;
+        }
+ .form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .cont1{
+
+            select{
+                background-color: transparent;
+                padding: 20px 50px ;
+                border: 1px solid white;
+                border-radius: 5px ;
+            }
+        }
+
+    }
+
+    .form2{
+        label{
+            font-weight: 700;
+
+        }
+            input{
+                padding: 20px 50px ;
+                border: 1px solid white;
+                border-radius: 5px ;
+                background: transparent;
+                color: white;
+                
+              
+
+
+
+
+            }
+        
+    }
+
+    
+
+    }
+
+   
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swipper2 {
+    width: 60%;
+    height: 20vh;
+
+}
+
+.swipslide {
+    height: 20vh;
+    width: 40% !important;
+    /* background-cpxolor: red; */
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slideer-image {
+        padding: 0px 15px;
+
+
+    }
+
+}
+
+.swipslide img {
+    display: block;
+    width: 3width 00px;
+    height: 100px;
+    object-fit: cover;
+}
